@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './App.css'
 // import GetInputFieldValue from './Components/GetInputFieldValue'
 // import HideShowToggle from './Components/HideShowToggle'
-import FormHandling from './Components/FormHandling'
+// import FormHandling from './Components/FormHandling'
+ import ConditionalRendering from './Components/ConditionalRendering'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,8 @@ function App() {
     <div>
       {/* <GetInputFieldValue/> */}
       {/* <HideShowToggle/> */}
-      <FormHandling/>
+      {/* <FormHandling/> */}
+      <ConditionalRendering/>
   </div>
     </>
   )
