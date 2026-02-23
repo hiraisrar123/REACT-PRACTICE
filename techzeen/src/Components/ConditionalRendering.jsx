@@ -22,6 +22,8 @@ return(
     <button onClick={() => setVote(false)}>Deny Vote</button>
 
     {vote && <h1>You Can Vote</h1>}
+
+    {age >18 ? <h2> Your age is greater than 18</h2>: <h2> Your age is less than 18</h2>}
   </div>
 )
 }
