@@ -8,7 +8,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  function getData(){
+    alert("Hello zfrom App.jsx")
+  }
   return (
     <>
     <div>
@@ -16,7 +18,7 @@ function App() {
       {/* <HideShowToggle/> */}
       {/* <FormHandling/> */}
       {/* <ConditionalRendering/> */}
-      <PassFuntionAsProps/>
+      <PassFuntionAsProps getData={getData}/>
   </div>
     </>
   )
