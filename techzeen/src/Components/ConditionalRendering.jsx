@@ -1,7 +1,7 @@
-import {useState} from 'react'
+// import {useState} from 'react'
 
-const ConditionalRendering = () => {
-  const [vote, setVote] = useState(false);
+// const ConditionalRendering = () => {
+//   const [vote, setVote] = useState(false);
 
 //   if (vote) {
 //   return (
@@ -16,15 +16,14 @@ const ConditionalRendering = () => {
 //     </div>)
 // }
 
-return(
-  <div>
-    <button onClick={() => setVote(true)}>Allow Vote</button>
-    <button onClick={() => setVote(false)}>Deny Vote</button>
+// return(
+//   <div>
+//     <button onClick={() => setVote(true)}>Allow Vote</button>
+//     <button onClick={() => setVote(false)}>Deny Vote</button>
 
-    {vote && <h1>You Can Vote</h1>}
+//     {vote && <h1>You Can Vote</h1>}
 
-    {age >18 ? <h2> Your age is greater than 18</h2>: <h2> Your age is less than 18</h2>}
-  </div>
-)
-}
-export default ConditionalRendering
+//     {age >18 ? <h2> Your age is greater than 18</h2>: <h2> Your age is less than 18</h2>}
+//   </div>
+// )}
+// export default ConditionalRendering
